@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - the core of the program
  *
- * Return Always 0
+ * main - check the code.
+ *
+ *    * Return: Always 0.
+ *
  */
 
 int main(void)
