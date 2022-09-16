@@ -1,9 +1,15 @@
 #include "main.h"
 
+/**
+ *  * main - check the code
+ *   *
+ *
+ *    * Return: Always 0.
+ */
 
-void print_most_numbers(void)
+int main(void)
+
 {
-	void print_most_numbers(void);
-
-	return;
+	print_most_numbers();
+	return (0);
 }

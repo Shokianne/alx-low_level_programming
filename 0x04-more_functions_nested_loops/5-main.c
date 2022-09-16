@@ -1,9 +1,14 @@
 #include "main.h"
 
-void more_numbers(void)
-{
-	void more_numbers(void);
-	
-	return;
+/**
+ *  * main - check the code
+ *   *
+ *    * Return: Always 0.
+ *
+ */
 
+int main(void)
+{
+	more_numbers();
+	return (0);
 }

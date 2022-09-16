@@ -1,32 +1,21 @@
 #include "main.h"
-
+#include <stdio.h>
 
 void print_triangle(int size)
-
 {
 	int x, y;
-	
 	if (size > 0)
-	
 	{
 		for (x = 1; x <= size; x++)
-		
 		{
 			for (y = size - x; y > 0; y--)
-				
-				_putchar('h');
-			
+				putchar('.');
 			for (y = 0; y < x; y++)
-				
-				_putchar('s');
-			
+				putchar('#');
 			if (x == size)
-				
 				continue;
-			
-			_putchar('\n');
+			putchar('\n');
 		}
 	}
-	
-	_putchar('\n');
+	putchar('\n');
 }

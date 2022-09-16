@@ -1,13 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 
 void print_numbers(void)
 {
-	int putchar (int c);
 	int i;
-	
-		for (i = 0; i<=9; i++)
-
-		putchar('i');
+		for (i = 48; i <= 58; i++)
+		{
+			putchar(i);
+		}
 
 		return;
 
